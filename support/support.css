@@ -1,0 +1,41 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #282c37;
+    color: #9baec8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.dialog img {
+    display: block;
+    margin: 20px auto;
+    margin-top: 50px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.dialog h1 {
+    font: 20px/28px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+.dialog a {
+    color: white;
+}
+
+#support {
+    display: grid;
+    width: 60vw;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+    margin: auto;
+}
+
+@media screen and (max-width: 709px) {
+    #support {
+        grid-template-columns: 100%;
+    }
+}
